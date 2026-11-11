@@ -1,0 +1,40 @@
+ticket_multiagent/
+│
+├── app.py
+├── config.py
+├── requirements.txt
+├── .env
+│
+├── agents/
+│   ├── orchestrator.py
+│   ├── classifier_agent.py
+│   └── solution_agent.py
+│
+├── tools/
+│   ├── classification_search.py
+│   ├── knowledge_search.py
+│   ├── ticket_repository.py
+│   ├── responsible_catalog.py
+│   └── email_sender.py
+│
+├── models/
+│   ├── classification.py
+│   ├── solution.py
+│   ├── ticket.py
+│   └── conversation.py
+│
+├── prompts/
+│   ├── orchestrator.md
+│   ├── classifier.md
+│   └── solution.md
+│
+├── services/
+│   ├── foundry_client.py
+│   ├── graph_client.py
+│   └── search_client.py
+│
+└── tests/
+    ├── test_routing.py
+    ├── test_classification.py
+    ├── test_solution_thresholds.py
+    └── test_email_recipients.py
